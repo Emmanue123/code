@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tessy African Continental Dishes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <style>
+    .hero {
+      background: url('https://via.placeholder.com/1920x600?text=Delicious+Dish') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      color: white;
+    }
+    .hero .overlay {
+      background: rgba(0, 0, 0, 0.5);
+      height: 100%;
+    }
+    .hero-content {
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header/Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Tessy African Continental Dishes</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero d-flex align-items-center">
+  <div class="container text-center hero-content">
+    <div class="overlay d-flex justify-content-center align-items-center">
+      <div>
+        <h1 class="display-4 fw-bold">African Dishes</h1>
+        <a href="#menu" class="btn btn-primary btn-lg mt-3">Explore Our Menu</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Menu Section -->
+<section id="menu" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Menu</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Afang.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Afang Soup</h5>
+            <p class="card-text">Afang soup is a traditional soup of the Efik and Ibibio people from southeastern Nigeria. It's made from a blend of waterleaf (or spinach) and finely sliced afang (okazi) leaves, cooked with palm oil, assorted meats, dried fish, periwinkles, and often crayfish. Afang leaves are slightly tough, so they are usually pounded or ground before cooking to soften them.
+
+              Commonly Served With: Eba, fufu, or pounded yam.
+              
+               u</p>
+            <p class="text-success fw-bold">$12.99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="oha.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Oha soup</h5>
+            <p class="card-text">Oha soup is a traditional Igbo soup from southeastern Nigeria made with tender Oha leaves (also known as African rosewood leaves). It typically includes thickening agents like cocoyam paste, palm oil, assorted meats, stockfish, and seasonings like crayfish and ogiri (fermented condiment). Oha leaves are soft and fragrant, adding a unique flavor to the soup.
+
+              Commonly Served With: Fufu, pounded yam, or semovita.</p>
+            <p class="text-success fw-bold">$13.49</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="egusi.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Egusi Soup</h5>
+            <p class="card-text">Egusi soup is a rich and hearty West African soup made from ground melon seeds (called egusi), cooked with palm oil, leafy vegetables (often spinach, bitterleaf, or ugu), and an assortment of meats and seafood. The soup is thickened by the egusi seeds, which give it a nutty flavor and grainy texture. It is usually seasoned with onions, crayfish, stock cubes, and pepper.
+
+              Commonly Served With: Pounded yam, eba (garri), fufu, or amala.
+              
+              .</p>
+            <p class="text-success fw-bold">$9.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="resturant.jpg" class="img-fluid rounded" alt="Restaurant">
+      </div>
+      <div class="col-md-6">
+        <h2>About Tessy African Continental Dishes</h2>
+        <p>Welcome to Tessy African Continental Dishes, where every dish is made with passion and precision. Our chefs blend tradition with innovation to serve you unforgettable meals in a cozy atmosphere.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form>
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control" placeholder="Your Email" required>
+        </div>
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-light text-center p-3">
+  <div class="container">
+    <p>&copy; 2025 Tessy African Continental Dishes. All rights reserved.</p>
+    <div>
+      <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+      <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
